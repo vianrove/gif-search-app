@@ -4,7 +4,7 @@ import { AddCategory, GifGrid } from "./components";
 
 export const GifSearchApp = () => {
 
-    const [categories, setCategories] = useState( ['Valorant'] );
+    const [categories, setCategories] = useState( [''] );
 
     const onAddCategory = ( newCategory ) => {
 
